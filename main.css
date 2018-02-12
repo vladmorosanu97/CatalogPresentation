@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    margin: 0px;
+}
+ul{
+    padding: 0px;
+}
+.navigation{
+    display: flex;
+    background-color: #262b31;
+    height: 70px;
+    align-items: center;
+}
+.logo-page{
+    margin-left: 30px;
+}
+.logo-page a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #E5E7E9;
+    font-size: 23px;
+}
+.navigation-list{
+    margin-left: auto;
+}
+.navigation-elements{
+    display: flex;
+}
+.one-element {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.one-element:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    background-color: #3a3e44;
+    border-radius:10px;
+}
+.isChecked {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    background-color: #3498DB;
+    border-radius:10px;
+}
+
+.isChecked:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    background-color: #3498DB;
+    border-radius:10px;
+}
+.one-element a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #E5E7E9;
+
+}
