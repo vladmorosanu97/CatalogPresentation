@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-body{
+body {
     margin: 0px;
 }
-ul{
+ul {
     padding: 0px;
 }
-.navigation{
+.navigation {
     display: flex;
     background-color: #262b31;
     height: 70px;
     align-items: center;
 }
-.logo-page{
+
+.logo-page {
     margin-left: 30px;
 }
-.logo-page a{
+
+.logo-page a {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #E5E7E9;
     font-size: 23px;
 }
-.navigation-list{
+
+.navigation-list {
     margin-left: auto;
+    color: white
 }
-.navigation-elements{
+
+.power {
+    color: blue;
+}
+
+.navigation-elements {
     display: flex;
 }
-.one-element {
+
+.navigation-elements .one-element {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 17px;
@@ -36,44 +46,31 @@ ul{
     list-style-type: none;
     cursor: pointer;
 }
-.one-element:hover {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    list-style-type: none;
+
+.one-element:hover:not(.active) {
     background-color: #3a3e44;
     border-radius:10px;
 }
-.isChecked {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    list-style-type: none;
+
+li.one-element.active {
     background-color: #3498DB;
     border-radius:10px;
 }
 
-.isChecked:hover{
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    list-style-type: none;
-    background-color: #3498DB;
-    border-radius:10px;
-}
-.one-element a{
+.one-element a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     color: #E5E7E9;
+}
 
+.header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("images/bridge.jpg");
+    background-size: cover;
+}
+
+.subtitle, .title {
+    text-align: center;
 }
