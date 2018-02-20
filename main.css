@@ -129,7 +129,7 @@ p{
     border-color: #1d1e1f;
     color:white;
 }
-.introduction{
+.section{
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 250px;
@@ -215,9 +215,65 @@ p{
     padding-bottom: 20px;
 }
 
-.introduction .images-list .icon{
+.section .images-list .icon{
         font-size:100px;
         color: white;
         margin: 30px;
 } 
-
+.one-icon .icon{
+    font-size: 50px;
+    color: #DA7E79;
+    padding: 20px;
+}
+.one-icon{
+    width:200px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+.background-image{
+    background-image: url("images/sunrise.jpg");
+    background-size: cover;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f7f7f7;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 0px;
+}
+.input{
+    width: 470px;
+    height: 42px;
+}
+.text:focus, .message:focus{
+    outline: none;
+    border-width: 1px;
+    border-color: #DA7E79;
+}
+.message-section{
+    margin-bottom: 40px;
+}
+.message{
+    width: 97%;
+    height: 250px;
+    padding-top: 10px;
+    resize: none;
+}
