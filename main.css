@@ -101,7 +101,7 @@ p, .link{
     line-height: 40px;
     color: #F8F9F9;
 }
-.left-main  .left-align{
+.links-main  .left-align{
     text-align:left;
 }
 
@@ -374,9 +374,9 @@ p, .link{
 
 }
 
-.left-main{
-    margin: 70px 100px 50px 100px;
-    width:1800px;
+.links-main{
+    margin: 70px 50px 30px 50px;
+    width:1900px;
     
 }
 .section-left-bar{
@@ -388,11 +388,11 @@ p, .link{
     text-align: left;
 }
 
-.right-main{
-    margin: 50px 150px 50px 50px;
+.content-main{
+    margin: 50px 50px 50px 50px;
     text-align: left;
 }
-.section-right-main{
+.section-content-main{
     margin-top: 20px;
     margin-bottom: 80px;
 }
